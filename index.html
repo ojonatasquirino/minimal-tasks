@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gerenciador de atividades</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>gerenciador de atividades</h1>
+        <div class="form-container">
+            <input type="text" id="taskInput" placeholder="digite a atividade" class="input">
+            <button id="addTaskButton" class="button">adicionar</button>
+        </div>
+        <ul id="taskList" class="task-list"></ul>
+    </div>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span id="closeModal" class="close-button">&times;</span>
+            <p>Ei, adicione a tarefa!</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
